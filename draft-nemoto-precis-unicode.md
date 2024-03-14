@@ -4,7 +4,7 @@ title: "PRECIS Framework and Unicode 15.0.0"
 abbrev: "PRECIS Unicode Update"
 category: info
 
-docname: draft-nemoto-precis-unicode
+docname: draft-nemoto-precis-unicode-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
