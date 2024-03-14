@@ -10,19 +10,19 @@ number:
 date:
 consensus: true
 v: 3
-area: ART
-workgroup: 
+area: "Applications and Real-Time"
+workgroup: "Preparation and Comparison of Internationalized Strings"
 keyword:
  - PRECIS
  - Unicode
  - Internationalization
 venue:
-  group: 
-  type: 
-  mail: 
-  arch: 
-  github: stpeter/draft-nemoto-precis-unicode
-  latest: 
+  group: "Preparation and Comparison of Internationalized Strings"
+  type: "Working Group"
+  mail: "precis@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/precis/"
+  github: "stpeter/draft-nemoto-precis-unicode"
+  latest: "https://stpeter.github.io/draft-nemoto-precis-unicode/draft-nemoto-precis-unicode.html"
 
 author:
  -  ins: T. Nemoto
