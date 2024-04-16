@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-04-14T01:19:09.283997+00:00",
+  "timestamp": "2024-04-16T01:02:52.067645+00:00",
   "repo": "stpeter/draft-nemoto-precis-unicode",
   "labels": [
     {
@@ -49,6 +49,39 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOLf_dU86Fxjrw",
+      "title": "Bring I-D up to date with Unicode 15.0.0",
+      "url": "https://github.com/stpeter/draft-nemoto-precis-unicode/issues/1",
+      "state": "OPEN",
+      "author": "stpeter",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "The most recent version of the document at https://www.ietf.org/archive/id/draft-nemoto-precis-unicode14-00.txt covers Unicode 14.0.0. We need to update the document to cover Unicode 15.0.0 as well.",
+      "createdAt": "2024-04-15T18:38:06Z",
+      "updatedAt": "2024-04-15T18:38:06Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 2,
+      "id": "I_kwDOLf_dU86FxrH6",
+      "title": "Double-check incompatible code points",
+      "url": "https://github.com/stpeter/draft-nemoto-precis-unicode/issues/2",
+      "state": "OPEN",
+      "author": "stpeter",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Let's take a closer look at the incompatible code points mentioned in RFC 9233 (and additional incompatible code points between 12.0.0. and 15.0.0). This list should include at least the following code points:\r\n\r\nU+0CF1\r\nU+0CF2\r\nU+19DA\r\nU+111C9\r\nU+1734\r\n\r\n@fightingnemo feel free to add to this list\r\n\r\nWe might want to create a separate file listing these code points and others that require manual inspection.",
+      "createdAt": "2024-04-15T18:52:57Z",
+      "updatedAt": "2024-04-15T18:52:57Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
