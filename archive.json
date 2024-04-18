@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-04-16T01:02:52.067645+00:00",
+  "timestamp": "2024-04-18T01:03:02.810426+00:00",
   "repo": "stpeter/draft-nemoto-precis-unicode",
   "labels": [
     {
@@ -62,9 +62,17 @@
       "labels": [],
       "body": "The most recent version of the document at https://www.ietf.org/archive/id/draft-nemoto-precis-unicode14-00.txt covers Unicode 14.0.0. We need to update the document to cover Unicode 15.0.0 as well.",
       "createdAt": "2024-04-15T18:38:06Z",
-      "updatedAt": "2024-04-15T18:38:06Z",
+      "updatedAt": "2024-04-16T11:21:19Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "fightingnemo",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I have added the Unicode 15 data to the 'nemo' branch. (However, it seems that the build fails when I create a pull request.) #3 \r\n",
+          "createdAt": "2024-04-16T11:21:18Z",
+          "updatedAt": "2024-04-16T11:21:18Z"
+        }
+      ]
     },
     {
       "number": 2,
@@ -83,5 +91,127 @@
       "comments": []
     }
   ],
-  "pulls": []
+  "pulls": [
+    {
+      "number": 3,
+      "id": "PR_kwDOLf_dU85sybwY",
+      "title": "Added data up to Unicode 15.0.0.",
+      "url": "https://github.com/stpeter/draft-nemoto-precis-unicode/pull/3",
+      "state": "OPEN",
+      "author": "fightingnemo",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Updated an appendix \"Code points in Unicode Character Database (UCD) format for Unicode xx.xx.xx\" data to cover Unicode 15.\nAdded a section \"Changes between Unicode 14.0.0 and 15.0.0\".\nAdded an appendix \"Changes from Unicode 14.0.0 to Unicode 15.0.0\".\nCorrected an appendix \"Changes from Unicode 13.0.0 to Unicode 14.0.0\" to be a maximum of 73 characters per line.\nAdded Unicode 15 to the reference list.",
+      "createdAt": "2024-04-16T11:02:06Z",
+      "updatedAt": "2024-04-17T23:52:16Z",
+      "baseRepository": "stpeter/draft-nemoto-precis-unicode",
+      "baseRefName": "main",
+      "baseRefOid": "2fd47533c6ce926a4d2ac6f6937d610fc30b0b42",
+      "headRepository": "stpeter/draft-nemoto-precis-unicode",
+      "headRefName": "nemo",
+      "headRefOid": "7bd49b944a0ce3418196517c1672ec4e53746493",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOLf_dU853e4fR",
+          "commit": {
+            "abbreviatedOid": "7bd49b9"
+          },
+          "author": "stpeter",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-04-16T20:56:05Z",
+          "updatedAt": "2024-04-16T21:06:11Z",
+          "comments": [
+            {
+              "originalPosition": 241,
+              "body": "When there is a range of characters, the convention we inherited from IDNA is that the right-most part of the line includes the names (often truncated because RFCs can have only 72 characters per line) of the first code point and the last code point in the range, separated by \"..\" So this should be something like \"LATIN SMALL LETTER D WITH MID-..LATIN SMALL\"",
+              "createdAt": "2024-04-16T20:56:05Z",
+              "updatedAt": "2024-04-16T21:06:11Z"
+            },
+            {
+              "originalPosition": 830,
+              "body": "See note above about how to label this range.",
+              "createdAt": "2024-04-16T21:01:44Z",
+              "updatedAt": "2024-04-16T21:06:12Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLf_dU853ijyC",
+          "commit": {
+            "abbreviatedOid": "7bd49b9"
+          },
+          "author": "fightingnemo",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-04-17T09:40:52Z",
+          "updatedAt": "2024-04-17T09:40:53Z",
+          "comments": [
+            {
+              "originalPosition": 241,
+              "body": "Thank you for reviewing! I'll try to fix it in the next version.",
+              "createdAt": "2024-04-17T09:40:53Z",
+              "updatedAt": "2024-04-17T09:40:53Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOLf_dU853qPc1",
+          "commit": {
+            "abbreviatedOid": "7bd49b9"
+          },
+          "author": "stpeter",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-04-17T23:52:16Z",
+          "updatedAt": "2024-04-17T23:52:16Z",
+          "comments": [
+            {
+              "originalPosition": 241,
+              "body": "You should be able to push a change to this branch, and that will be reflected in the pull request.",
+              "createdAt": "2024-04-17T23:52:16Z",
+              "updatedAt": "2024-04-17T23:52:16Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOLf_dU85s_Ht8",
+      "title": "restore description of our workflow",
+      "url": "https://github.com/stpeter/draft-nemoto-precis-unicode/pull/4",
+      "state": "MERGED",
+      "author": "stpeter",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-04-18T00:04:58Z",
+      "updatedAt": "2024-04-18T00:05:16Z",
+      "baseRepository": "stpeter/draft-nemoto-precis-unicode",
+      "baseRefName": "main",
+      "baseRefOid": "2fd47533c6ce926a4d2ac6f6937d610fc30b0b42",
+      "headRepository": "stpeter/draft-nemoto-precis-unicode",
+      "headRefName": "contrib-fixes",
+      "headRefOid": "989365bc5da58e77ca8b39fe24d968a082c453d6",
+      "closedAt": "2024-04-18T00:05:06Z",
+      "mergedAt": "2024-04-18T00:05:06Z",
+      "mergedBy": "stpeter",
+      "mergeCommit": {
+        "oid": "c0d9ead82b571381ef2109a8afa55655d44d21dc"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
